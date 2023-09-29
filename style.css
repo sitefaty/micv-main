@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: "Calibri";
+}
+
+/* comienzo de pagina */
+header {
+    background: url("./imagenes/fondo.jpg");
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section h1 {
+    font-size: 44px;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+.conteiner p {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+/* foto de perfil */
+.avatar {
+    background: url("./imagenes/perfil.jpg");
+    background-size: cover;
+    height: 10em;
+    width: 10rem;
+    border-radius: 50%
+}
+
+/* esto es un resumen de mis empleos*/
+
+body {
+    background-color: lightgray;
+}
+
+section {
+    height: 100px;
+}
+
+section#hero {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.empleos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.consultorio-medico-titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.consultorio-medico {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img-farmacia {
+    height: 61%;
+}
+
+.vendedora-titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.vendedora {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.desarrolladora-progreso-titulo {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.desarrolladora-progreso {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.detalles {
+    border: 3px solid rgb(93, 93, 97);
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+
+.detalles img {
+    width: 100%;
+    border-radius: 50%;
+}S
+
+nav ul li {
+    margin-right: 20px;
+    padding: 5px 5px;
+}
+
+.datos-personales {
+    margin-top: 60%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.datos-personales strong {
+    margin-right: 10px;
+}
+
+.list-datos {
+    margin-top: 40px;
+    list-style: none;
+}
+
+.aptitudes {
+    height: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    background-color: #878786;
+    height: 150px;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafoenlace {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links-redes-sociales {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 15px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-redes-sociales a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.links-redes-sociales a:hover {
+    background-color: rgb(159, 163, 163);
+    border-radius: 30%;
+}
+
+.contactoPersonal a {
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    align-items: center;
+}
+
+.contactoPersonal {
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contactoPersonal img {
+    margin-right: 5px;
+}
+
+.contactoPersonal a:hover {
+    background-color: rgb(159, 163, 163);
+    border-radius: 30%;
+}
